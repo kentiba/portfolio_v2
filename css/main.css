@@ -208,10 +208,12 @@ main {
 
 .projects {
   display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(2, 1fr); }
+  width: 70%;
+  margin: auto;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(1, 1fr); }
   .projects .item {
-    border-radius: 2rem;
+    border-radius: 1rem;
     background-color: #e6d7d7; }
   .projects img {
     width: 80%;
@@ -291,7 +293,7 @@ main {
     grid-template-columns: 1fr;
     grid-template-areas: 'bioimage ' 'bio  ' 'job1  ' 'job2 ' 'job3 '; }
   .projects {
-    grid-template-columns: 1fr; } }
+    width: 100%; } }
 
 @media screen and (max-width: 500px) {
   .lg-heading {
