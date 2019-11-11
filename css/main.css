@@ -98,7 +98,7 @@ body {
   color: #000;
   height: 100%;
   margin: 0;
-  font-family: 'Lato', 'sans-serif';
+  font-family: "Lato", "sans-serif";
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/background.jpg);
@@ -126,7 +126,7 @@ h3 {
     padding: 0.2rem 1rem; }
 
 .lg-heading {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #7e7777;
   text-decoration: none;
   text-transform: uppercase;
@@ -137,7 +137,7 @@ h3 {
   text-shadow: #ededed 3px 2px 0;
   position: relative; }
   .lg-heading:after {
-    content: '';
+    content: "";
     position: absolute;
     left: 8px;
     top: 32px;
@@ -215,6 +215,8 @@ main {
   .projects .item {
     border-radius: 1rem;
     background-color: #e6d7d7; }
+  .projects .item:first-child {
+    margin-top: 1.5rem; }
   .projects img {
     width: 80%;
     border: 3px solid #fff;
